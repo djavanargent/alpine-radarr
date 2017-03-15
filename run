@@ -1,0 +1,9 @@
+docker run -d --name radarr \
+-p 7878:7878 \
+-e PUID=1001 -e PGID=1001 \
+-e TZ=US/Eastern \
+-v /etc/localtime:/etc/localtime:ro \
+-v /docker/config/radarr:/config \
+-v /docker/media/movies:/movies \
+-v /docker/downloads/complete:/downloads \
+djavanargent/alpine-radarr
