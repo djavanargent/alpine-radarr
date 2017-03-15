@@ -46,7 +46,7 @@ In this instance `PUID=1001` and `PGID=1001`. To find yours use `id user` as bel
 
 ## Setting up the application
 
-Access the webui at `<your-ip>:7878`, for more information check out [Radarr][appurl].
+Access the webui at `<your-ip>:7878`.
 
 ## Info
 
